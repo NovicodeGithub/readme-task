@@ -22,7 +22,7 @@
 
 ## Quick start
 
-### .neutrinorc.js
+#### .neutrinorc.js
 
 ```js
 module.exports = {
@@ -33,7 +33,7 @@ module.exports = {
    ]
 };
 ```
-### .neutrinorc.js
+#### .neutrinorc.js
 
 ```json
 {
@@ -51,4 +51,4 @@ module.exports = {
 ---------|----------|---------
  `lint` | Lints JS and JSX files from the `src` directory using ESLint. Contains a single loader named eslint. This is inherited from @neutrinojs/eslint. | all
 
- `@atomspace/eslint` can work in your editor even if there is no build infrastructure (`npm start` / `npm run build`). You can install it to any kind of JavaScript projects following the [Quick Start](#quick-start) guide above.`
+ `@atomspace/eslint` can work in your editor even if there is no build infrastructure (`npm start` / `npm run build`). You can install it to any kind of JavaScript projects following the [Quick Start](#quick-start) guide above.
